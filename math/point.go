@@ -15,3 +15,9 @@ func NewPoint(x, y float64) Point {
 func (p Point) Distance(q Point) float64 {
 	return simplemath.Sqrt((p.x-q.x)*(p.x-q.x) + (p.y-q.y)*(p.y-q.y))
 }
+
+// Double doubles the coordinates of a point
+func (p *Point) Double() {
+	p.x *= 2
+	p.y *= 2
+}
