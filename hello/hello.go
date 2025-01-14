@@ -1,8 +1,8 @@
-package main
+package hello
 
 import "fmt"
 
-import "math/simplemath"
+import "github.com/yuechen-sys/go_tutorial/math/simplemath"
 
 // import "rsc.io/quote"
 
@@ -11,6 +11,6 @@ func main() {
 	var b int = 2
 	var c int32
 
-	c = int32(max(a, b))
+	c = int32(simplemath.Max(a, b))
 	fmt.Printf("Hello World%d\n", c)
 }

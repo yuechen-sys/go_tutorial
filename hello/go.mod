@@ -1,4 +1,4 @@
-module example/hello
+module go_tutorial/hello
 
 go 1.23.4
 
