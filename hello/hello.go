@@ -1,7 +1,6 @@
 package hello
 
 import "fmt"
-
 import "github.com/yuechen-sys/go_tutorial/math/simplemath"
 
 // import "rsc.io/quote"

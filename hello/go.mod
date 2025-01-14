@@ -1,4 +1,4 @@
-module go_tutorial/hello
+module github.com/yuechen-sys/go_tutorial/hello
 
 go 1.23.4
 
